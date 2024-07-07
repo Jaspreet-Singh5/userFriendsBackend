@@ -17,5 +17,3 @@ services:
       - "3000:3000"
     environment:
       - CHOKIDAR_USEPOLLING=true
-      - REACT_APP_BACKEND_URL=http://backend:8000
-      
